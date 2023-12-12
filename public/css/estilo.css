@@ -1,0 +1,48 @@
+#cabecalho{
+    padding: 15px 0px;
+}
+
+.bottom-menu .nav-link {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-menu a {
+    border-right:5px #ffffff;
+    font-size:12px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.nav-link {
+    font-size: 30px;
+}
+
+.titulo-link{
+    text-decoration:none;
+    color:rgb(14, 131, 14)
+}
+
+.titulo-link:hover{
+    color:rgb(10, 97, 10)
+}
+
+.info label{
+    color: rgb(14, 131, 14);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table tr th{
+    color:rgb(14, 131, 14);
+}
+
+.card-login{
+    margin: 0 auto;
+    width:50%;
+}
