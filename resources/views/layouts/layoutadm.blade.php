@@ -17,7 +17,7 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
     <!-- css -->
-    <link rel="stylesheet" href="{{ mix('resources/css/app.css') }}">
+
 
     <!-- fontawesome --> 
     <script src="https://kit.fontawesome.com/22e6a200c4.js" crossorigin="anonymous"></script>
@@ -39,7 +39,7 @@
     <nav class="bg-warning navbar navbar-expand-md">
         <div class="container-fluid">
             <a class="navbar-brand text-light p-3 fs-2 d-md-none" href="{{ route('adm.index') }}">Livros Enem ADM</a>
-            <button class="navbar-toggler btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars fs-1" style="color: #ffffff;"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarToggler">
@@ -80,6 +80,7 @@
     <!-- Footer -->
     <footer class="bg-warning text-white text-center p-3">
         <p>&copy; 2023 {{config('app.name')}}. Todos os direitos reservados</p>
+        <p>Desenvolvido por Victor Alexandre Borges Milhomem :D</p>
     </footer>
 
 </body>

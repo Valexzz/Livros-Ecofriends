@@ -45,11 +45,11 @@ Route::group(['middleware' => ['auth', 'verified']], function() {
         Route::put('/give_adm/{id}/{give}', [AdmUsuarioController::class, 'giveAdm'])->name('usuarios.giveAdm');
     });
     
-    /*Route::name('verification.')->controller(VerificationController::class)->group(function (){
+    Route::name('verification.')->controller(VerificationController::class)->group(function (){
         Route::get('/email/verificar', 'show')->name('notice');
         Route::get('/email/verificar/{id}/{hash}', 'verify')->name('verify')->middleware(['signed']);
         Route::post('/email/reenviar', 'resend')->name('resend');
-    });*/
+    });
 
 
     Route::controller(LivroController::class)->group(function () {

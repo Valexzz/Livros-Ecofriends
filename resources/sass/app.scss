@@ -6,3 +6,95 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+#cabecalho{
+    padding: 15px 0px;
+}
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: 0px;
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+ }
+
+.container{
+    flex:1;
+}
+.bottom-menu .nav-link {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-menu a {
+    border-right:5px #ffffff;
+    font-size:12px;
+}
+
+#notAdm .nav-link:hover, #notAdm .active {
+    color: #ffc107 !important;
+}
+
+.nav-link {
+    font-size: 30px;
+}
+
+.titulo-link{
+    text-decoration:none;
+    color:rgb(14, 131, 14);
+    text-transform:capitalize;
+}
+
+.titulo-link:hover{
+    color:rgb(10, 97, 10)
+}
+
+.info label{
+    color: rgb(14, 131, 14);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table tr th{
+    color:rgb(14, 131, 14);
+}
+
+.card-header{
+    color:rgb(14, 131, 14);
+    font-weight: bold;
+}
+
+.card-login{
+    margin: 0 auto;
+    width:50%;
+}
+
+.nav-link{
+    font-size:16px !important;
+}
+
+.nav-item{
+    padding-left:10px;
+    margin: 0 5px
+}
+
+td{
+    text-transform: capitalize;
+}
+
+.old-card{
+    background-color: #e2e3e5
+}
+
+#adm .nav-link:hover, #adm .active{
+    color:rgb(0, 0, 0) !important;
+}

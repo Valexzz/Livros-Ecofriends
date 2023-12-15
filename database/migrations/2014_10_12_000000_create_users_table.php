@@ -25,6 +25,7 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable($value=true);
             $table->rememberToken();
             $table->timestamps();
+            $table->engine = 'InnoDB';
         });
     }
 

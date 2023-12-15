@@ -17,7 +17,8 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
     <!-- css -->
-    <link rel="stylesheet" href="{{ mix('resources/css/app.css') }}">
+
+
 
     <!-- fontawesome --> 
     <script src="https://kit.fontawesome.com/22e6a200c4.js" crossorigin="anonymous"></script>
@@ -37,6 +38,7 @@
     <!-- Footer -->
     <footer class="bg-success text-white text-center p-3">
         <p>&copy; 2023 {{config('app.name')}}. Todos os direitos reservados</p>
+        <p>Desenvolvido por Victor Alexandre Borges Milhomem :D</p>
     </footer>
 
 </body>
