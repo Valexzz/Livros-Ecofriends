@@ -17,8 +17,9 @@ return new class extends Migration
             $table->string('titulo', 100);
             $table->unsignedBigInteger('area_conhecimento_id');
             $table->string('numero_cadastro', 50);
-            $tabçe->int('estoque');
+            $table->integer('estoque');
             $table->timestamps();
+            $table->engine = 'InnoDB';  
         });
     }
 
